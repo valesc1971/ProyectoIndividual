@@ -43,7 +43,7 @@ Las librerías instaladas se encuentran en el archivo requirements.txt
 <a name="Consideraciones"></a>
 ## Consideraciones
 
-Para el desarrollo del código de frontend, se utilizó HTML como herramienta principal. Para el formato, se utilizandó CSS y las herramientas JavaScript, JQuery, Boostrap y DataTable, Fancybox las que son llamadas usando CDNs.
+Para el desarrollo del código de frontend, se utilizó HTML como herramienta principal. Para el formato, se utilizandó CSS y las herramientas JavaScript, JQuery, Boostrap, DataTable, Fancybox y FontAwsome las que son llamadas usando CDNs.
 
 Los archivos de HTML se encuentran en una carpeta dentro de la aplicacion (aplicacion1/templates)
  ![image](https://user-images.githubusercontent.com/99301347/169719544-42b98166-ce87-45ae-8b84-ae3bb9dc1a82.png)
@@ -145,7 +145,7 @@ Para visualizarla, se debe hacer los siguientes cambios en el archivo setting.py
 
 Si un usuario visita el sitio y no ingresa, puede enviar un formulario de contacto, registrarse en el club (ingreso solo de datos) o registrarse como usuario. Esta opción lo registra como usuario “Active”.
 
-Si no ha ingresado como usuario, puede visualizar los productos en la opción “Productos”. 
+Si no ha ingresado como usuario, puede visualizar los productos en la opción “Productos”, pero no puede comprar, solo ver los productos.
 
 ![image](https://user-images.githubusercontent.com/99301347/169719679-706693bf-684d-41af-a5e0-eebfcf3e74a6.png)
 
@@ -167,7 +167,7 @@ Esta opción permite seguir comprando o finalizar la compra. Una vez que se pres
 
 ![image](https://user-images.githubusercontent.com/99301347/169719712-22907215-e0a1-44ca-88ca-4862f2374d83.png)
 
-Si se presiona “confirmar compra”, se despliega un mensaje de agradecimiento y la orden queda vacía.
+Si se presiona “confirmar compra”, se despliega un mensaje de agradecimiento y la orden queda vacía. La idea es conectar esta opcion con una pasarela de pago para realizar el pago de la orden. Por el momento, se dejo de esta forma considerando las implicancias de la implementacion de la pasarela de pago.
 
 Un usuario que ha ingresado puede revisar las ordenes anteriores, a través del Menu
 
